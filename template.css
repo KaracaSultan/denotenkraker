@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'din';
+    src: url('din.eot'); /* IE9 Compat Modes */
+    src: url('din.woff2') format('woff2'), /* Super Modern Browsers */
+         url('din.woff') format('woff'), /* Pretty Modern Browsers */
+         url('din.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@media screen and (min-width: 0px){
+
+	.container {
+  	width: 75%;
+	  margin: 0 auto;
+    position: relative;
+	}
+  body{
+    padding:0;
+    margin:0;
+    background-color:#EACCA7;
+  }
+  nav{
+  height:30px;
+  background-color: #2A1F49;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 50;
+}
+.clear{
+  text-align: left;
+  border: 10px solid orange;
+  border-radius: 25%;
+  padding:7%;
+}
+
+li{
+  float:left;
+  color:white;
+  width: 33.3%;;
+  text-align: center;
+  height: 100px;
+  line-height: 30px;
+}
+#pure{
+  font-size: 3em;
+}
+#img{
+  background-image: url("robot.svg");
+  background-position: center;
+  width: 100%;
+}
+#img h2{
+  color: #E73F11;
+}
+li a{
+  color:white;
+  text-decoration: none;
+  font-family: 'din';
+}
+h1{
+  font-family: 'din';
+  font-size: 3em;
+  text-align: left;
+  color: white;
+}
+	section.parallax {
+	  height: 500px;
+	  background-position: 50% 50%;
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	  background-size: cover;
+}
+#size{
+  font-size: 2em;
+
+}
+#blokje{
+	width: 100%;
+	height: 230px;
+	background-color: white;
+  display: block
+}
+
+#een{
+	background-color: #EACCA7;
+}
+#kleur{
+	background-image: url("DSC_0701.jpg");
+}
+#kleur2{
+  background-image: url("11.jpg");
+  margin-bottom: 100px;
+}
+
+section h2 {
+  margin: 30px 0;
+  font-size: 1em;
+	color: #2A1F49;
+	text-align: center;
+  font-family: 'din';
+}
+p {
+  font-size: 1.2em;
+	color: #E73F11;
+  font-family: 'din';
+  line-height: 30px;
+	text-align: left;
+}
+#contact a{
+  font-size: 1.2em;
+    line-height: 30px;
+  color: #E73F11;
+  font-family: 'din';
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+.rood{
+  position: fixed;
+  top:0;
+  z-index: 30;
+}
+
+
+.logo{
+	width: 120px;
+	margin: 30px auto ;
+	display:block;
+	animation-name: hartslag;
+  animation-duration: 6s;
+  animation-delay: 4s;
+}
+.breed{
+  width: 80%;
+  height: auto;
+  margin:  0 auto;
+  display: block;
+}
+.breed1{
+  margin-top: -100px;
+}
+
+
+@keyframes hartslag {
+   0% {
+    transform: scale(none);
+  }
+
+  20% {
+    transform: scale(1.1);
+  }
+
+  30% {
+    transform: scale(1.0);
+  }
+
+  45% {
+    transform: scale(1.05);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(none);
+  }
+}
+
+}
+
+@media all and (min-width: 600px) {
+  h1{
+    font-size: 8em;
+  }
+
+  #pure{
+    font-size: 5em;
+    line-height: 70px;
+  }
+section h2 {
+  font-size: 1.2em;
+  margin: 100px 0;
+  line-height: 40px;
+}
+section p {
+  font-size: 1em;
+  line-height: 30px;
+}
+.size{
+  font-size: 5em;
+  margin-left: -50px;
+}
+#blokje{
+	left:-200px;
+  width: 370px;
+  top:0;
+  position: absolute;
+  height: 600px;
+}
+.container {
+  width: 45%;
+}
+ul{
+  width: 75%;
+  display: block;
+  margin:0 auto;
+}
+li{
+  width: 33.3%;
+}
+.logo{
+  width:300px;
+  margin-top:100px;
+}
+.content1{
+  float:right;
+  margin-top: 250px;
+  position: absolute;
+  right:-150px;
+}
+.clear{
+  clear: both;
+}
+#top{
+  height: 800px;
+}
+.breed1{
+  margin-top: -10px;
+}
+
+
+
+}
